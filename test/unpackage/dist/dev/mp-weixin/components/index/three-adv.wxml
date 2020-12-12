@@ -1,1 +1,0 @@
-<view class="d-flex"><image class="lad" src="{{resdata.big.src}}" mode data-event-opts="{{[['tap',[['linkPage',['$0'],['resdata.big']]]]]}}" bindtap="__e"></image><view class="d-flex flex-column"><image class="rtad" src="{{resdata.smalltop.src}}" mode></image><image class="rbad" src="{{resdata.smallbottom.src}}" mode></image></view></view>
