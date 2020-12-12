@@ -1,6 +1,4 @@
 
-.navImg.data-v-5e8bc750{
-	width: 60rpx;
-	height: 60rpx;
-}
+.list-box.data-v-5e8bc750{background-color: #f1f1f1; -webkit-border-radius: 10rpx; border-radius: 10rpx;margin-bottom: 20rpx;}
+.list-img.data-v-5e8bc750{width: 362rpx; -webkit-border-radius: 10rpx; border-radius: 10rpx;}
 

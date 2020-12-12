@@ -1,3 +1,6 @@
 
 .banner-pic{height: 350rpx;}
+.dots{position: absolute;bottom: 20rpx;left: 43%;display: -webkit-box;display: -webkit-flex;display: flex;height: 6rpx;width: 100rpx;-webkit-border-radius: 6px;border-radius: 6px;background-color: rgba(255,241,254,0.4);}
+.dot-item{height: 6rpx;-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;-webkit-border-radius: 6px;border-radius: 6px;}
+.dot-item.active{background-color: #fff;}
 
