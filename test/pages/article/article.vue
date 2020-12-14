@@ -66,7 +66,6 @@
 	]
 	
 	let demo1=[
-		
 		{
 			type: "indexnavs",
 			data:[
@@ -144,7 +143,6 @@
 				},
 			]
 		},
-		
 		{
 			type: "list",
 			data:[
@@ -201,53 +199,6 @@
 	]
 		
 	let demo2=[
-		
-		{
-			type: "indexnavs",
-			data:[
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443672&di=e2fd592d6337fd0b90d4897f4142327a&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F19%2F92%2F59570bfcb7dc699.jpg',
-					text: "资讯",
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443681&di=df2faf0201794d53ef66d86e7f938251&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F19%2F92%2F90570bffbae369f.jpg',
-					text: "医院"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443667&di=e87c17ff132059345a4b90d6311cbc67&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_pic%2F01%2F19%2F74%2F00570b80ebe5640.jpg',
-					text: "新品发布"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770551005&di=3b46a87d723ccb135789e9016e189655&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F19%2F91%2F81570bf4830338d.jpg',
-					text: "小米众筹"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770551005&di=28f549dda053fb683aa77fddae6c7e73&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F19%2F92%2F71570bfdc7d0b67.jpg',
-					text: "小米众筹"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770551004&di=e3dd06aa146960206ecbb7af905cc226&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F19%2F93%2F52570c054b74eaa.jpg',
-					text: "资讯"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770799598&di=eaf659dc827bd68dcb931d1b60fc9d16&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F19%2F98%2F68570c3a9a3a3d4.jpg',
-					text: "小米众筹"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770551000&di=e270ea724e4bec2a7d69ffabf98b0f49&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F19%2F48%2F39570b25ee4e848.jpg',
-					text: "新品发布"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770550999&di=2221db7d8a790dd452467ed9f0acbd00&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F19%2F87%2F43570bcb2645e00.jpg',
-					text: "小米众筹"
-				},
-				{
-					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770770459&di=b66dbeb5018bf9d878565f505fa68a7f&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F19%2F52%2F29570b3549ece4d.jpg',
-					text: "小米众筹"
-				}
-			]
-		},
-		
 		{
 			type: "list",
 			data:[
@@ -358,7 +309,9 @@
 				}
 				this.tabIndex = index
 				this.scrollinto = 'tab'+index
-				this.addData()
+				if(index!=0){
+					this.addData()
+				}
 			},
 			//监听滑动列表
 			onChangeTab(e){

@@ -1,13 +1,6 @@
 <template>
 	<view>
-		<uni-list>
-			<uni-list-item title="" note="">111</uni-list-item>
-			<uni-list-item title="" note="">222</uni-list-item>
-			<uni-list-item title="" note="">222</uni-list-item>
-			<uni-list-item title="" note="">222</uni-list-item>
-		</uni-list>
 		
-		<uni-calendar lunar="" @change=""></uni-calendar>
 		
 		<view class="d-flex bg-white border-top position-fixed bottom-0 right-0 left-0" style="height: 90upx;">
 			<view class="flex-1 d-flex j-center a-center flex-column line-h">
