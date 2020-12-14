@@ -36,12 +36,21 @@
             "path" : "pages/article/article",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "特卖",
                 "enablePullDownRefresh": false
             }
             
         }
     ],
+	"condition": {
+	    "current": 0,
+	    "list": [{
+	            "name": "article", 
+	            "path": "pages/article/article", 
+	            "query": ""
+	        }
+	    ]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "商城实战",

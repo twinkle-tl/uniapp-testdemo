@@ -16,7 +16,13 @@
 		},
 		methods:{
 			linkPage(obj){
-				
+				switch(obj.text){
+					case "特卖":
+					uni.navigateTo({
+						url: '../../pages/article/article'
+					})
+					break;
+				}
 			}
 		}
 	}

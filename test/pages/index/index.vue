@@ -15,7 +15,7 @@
 			
 			<card v-else-if="list.type == 'recommendAdv'" :title="list.data.title" :cover="list.data.cover" />
 			
-			<view class="row j-sb px-1" v-else-if="list.type == 'list'">
+			<view class="row j-sb p-1 bg-light-secondary waterfall" v-else-if="list.type == 'list'">
 				<block v-for="(item2, index2) in list.data" :key="index2">
 					<common-list :resdata="item2" :index="index2" />
 				</block>
@@ -56,7 +56,7 @@
 			data:[
 				{
 					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443672&di=e2fd592d6337fd0b90d4897f4142327a&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F01%2F19%2F92%2F59570bfcb7dc699.jpg',
-					text: "资讯"
+					text: "特卖",
 				},
 				{
 					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443681&di=df2faf0201794d53ef66d86e7f938251&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F19%2F92%2F90570bffbae369f.jpg',
@@ -122,7 +122,7 @@
 			data:[
 				{
 					cover:'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3621987426,796514073&fm=26&gp=0.jpg',
-					title:'米家空调',
+					title:'米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调米家空调',
 					desc:'1.5匹变频',
 					oprice:2699,
 					pprice:1399,
@@ -245,4 +245,5 @@
 	.content{
 		padding: 0;
 	}
+	.waterfall{column-count: 2;column-gap: 0;}
 </style>

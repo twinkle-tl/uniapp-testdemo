@@ -41,6 +41,6 @@
 <style>
 	.banner-pic{height: 350upx;}
 	.dots{position: absolute;bottom: 20upx;left: 43%;display: flex;height: 6upx;width: 100upx;border-radius: 6px;background-color: rgba(255,241,254,0.4);}
-	.dot-item{height: 6upx;flex: 1;border-radius: 6px;}
+	.dot-item{height: 6upx;flex: 1;border-radius: 25%;}
 	.dot-item.active{background-color: #fff;}
 </style>
