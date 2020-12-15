@@ -1,22 +1,33 @@
 <template>
-	<view>
-		111
+	<view class="my-container">
+		<my-header></my-header>
+        <option-list></option-list>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
+import MyHeader from './Header'
+import OptionList from './OptionList'
+
+export default {
+    components:{
+        MyHeader,
+        OptionList
+    },
+    data() {
+        return {
+            
+        }
+    },
+    methods: {
+        
+    },
+}
 </script>
 
-<style>
-
+<style scoped>
+    .my-container {
+      height: 100vh;
+      background: #f5f5f5;
+    }
 </style>

@@ -18,10 +18,15 @@
 			linkPage(obj){
 				switch(obj.text){
 					case "特卖":
-					uni.navigateTo({
-						url: '../../pages/article/article'
-					})
-					break;
+						uni.navigateTo({
+							url: '../../pages/article/article'
+						})
+						break;
+					case "商城":
+						uni.navigateTo({
+							url: '../../pages/mall/mall'
+						})
+						break;
 				}
 			}
 		}

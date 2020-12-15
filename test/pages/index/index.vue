@@ -60,7 +60,7 @@
 				},
 				{
 					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443681&di=df2faf0201794d53ef66d86e7f938251&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F01%2F19%2F92%2F90570bffbae369f.jpg',
-					text: "医院"
+					text: "商城"
 				},
 				{
 					src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607770443667&di=e87c17ff132059345a4b90d6311cbc67&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_pic%2F01%2F19%2F74%2F00570b80ebe5640.jpg',
